@@ -14,21 +14,26 @@ body {
     background-color: rgba(105, 140, 185, 0.459);
     position: absolute;
     top: 20%;
-    left: 15%;
-    width: 70%;
+    right: 20%;
+    min-width: 40%;
+    max-width: 70%;
     margin: auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 7px;
 }
-.title {
-    font-size: 1.5rem;
-}
+
 .listItem {
     min-height: 4rem;
 }
+
 .title, .inputForm {
     text-align: center;
     margin: 1.2rem 2rem;
+}
+
+.title {
+    margin-top: 3rem;
+    font-size: 1.5rem;
 }
 
 input, button {
