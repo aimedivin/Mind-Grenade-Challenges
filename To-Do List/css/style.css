@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url("../background.jpg");
+    background-image: url("../asset/background.jpg");
     font-family: monospace, 'Courier New', Courier;
     font-size: 1rem;
 }
