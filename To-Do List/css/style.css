@@ -83,10 +83,10 @@ li {
 }
 
 li:nth-child(even) {
-    background-color: rgba(185, 184, 184, 0.822);
+    background-color: rgba(235, 228, 228, 0.85);
 }
 li:nth-child(odd) {
-    background-color: rgba(81, 107, 141, 0.308);
+    background-color: rgba(160, 193, 236, 0.408);
 }
 
 ul div {
@@ -110,7 +110,7 @@ li input, li button {
 li button {
     font-size: 1rem;
     padding: 3px 10px 1px 10px;
-    border: rgb(6, 22, 36) solid 1px;
+    border: rgb(63, 112, 104) solid 1px;
     border-radius: 7px;
     background-color: rgb(229, 239, 247);
     font-weight: 600;
