@@ -48,16 +48,13 @@ body {
     font-size: inherit;
     padding: 5px;
 }
-.inputForm input[text] {
-    border: red solid 10px;
-}
 
 div ul .change:nth-child(odd) {
-    background-color: rgba(167, 43, 43, 0.496);
+    background-color: rgba(167, 43, 43, 0.796);
 }
 
 div ul .change:nth-child(even) {
-    background-color: rgba(167, 43, 43, 0.614);
+    background-color: rgba(221, 54, 54, 0.614);
 }
 
 .textChange {
@@ -84,16 +81,18 @@ span {
 }
 
 li input, li button {
-    height: 25px;
+    min-width: 20px;
+    height: 28px;
     cursor: pointer;
 }
 
 li button {
-    font-size: 0.9rem;
+    font-size: 1rem;
     padding: 3px 5px 1px 5px;
     border: rgb(6, 22, 36) solid 1px;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: rgb(229, 239, 247);
+    font-weight: 600;
 }
 
 li button:hover {
