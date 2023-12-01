@@ -1,6 +1,7 @@
+const date = new Date()
 const button = document.getElementById("additem");
-        const ul = document.getElementById("tasklist");
-        const input = document.getElementById("text");
+const ul = document.getElementById("tasklist");
+const input = document.getElementById("text");
         
         
         const check = (box, id, cla) => {
@@ -24,9 +25,12 @@ const button = document.getElementById("additem");
 
         button.addEventListener('click', () =>{
             ul.innerHTML += `<li id="id${ul.children.length}">
-            <div><span id="class${ul.children.length}">${input.value} </span></div>
-            
-                <input type="checkbox" id ="check${ul.children.length}" onclick ="check('check${ul.children.length}', 'id${ul.children.length}', 'class${ul.children.length}')"> 
-                <button onclick ="remove('id${ul.children.length}')">Remove</button>
-                </li>`;
+            <div>
+            <span id="class${ul.children.length}">${input.value}
+            </span>
+            <span class="date">${date.getFullYear()}/${date.getMonth()}/${date.getDay()}</span>
+            </div>
+            <input type="checkbox" id ="check${ul.children.length}" onclick ="check('check${ul.children.length}', 'id${ul.children.length}', 'class${ul.children.length}')">
+            <button onclick ="remove('id${ul.children.length}')">Remove</button>
+            </li>`;
         });
