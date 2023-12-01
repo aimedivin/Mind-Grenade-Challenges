@@ -4,24 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
+    <link rel="shortcut icon" href="write.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="title">
-            <h2>To-Do List</h2>
+    <main>
+        <div class="container">
+            <div class="title">
+                <h2>To-Do List</h2>
+            </div>
+            <div class="inputForm">
+                <input type="text" id = "text">
+                <button id="additem">Add Task</button>
+            </div>
+            <div class="listItem">
+                <hr>
+                <ul id = "tasklist">
+                </ul>
+            </div>
         </div>
-        <div class="inputForm">
-            <input type="text" id = "text">
-            <button id="additem">Add Task</button>
-        </div>
-        <div class="listItem">
-            <hr>
-            <ul id = "tasklist">
-            </ul>
-        </div>
-    </div>
-    
+    </main>
     <script src="main.js">
     </script>
 </body>
