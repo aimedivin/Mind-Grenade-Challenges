@@ -4,93 +4,100 @@
     box-sizing: border-box;
 }
 
+body {
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+}
+
 .container {
+    background-color: aqua;
     position: relative;
-    top: 200px;
-    left: 35%;
-    background-color: cyan;
+    margin: 50px auto;
+    width: 50%;
 }
 .circle {
-    width: 300px;
-    height: 300px;
-    border: black solid 5px;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    border: black solid 7px;
     border-radius: 50%;
     position: relative;
 }
 
 .tik {
-    background-color: rgb(241, 16, 16);
+    background-color: rgb(94, 93, 92);
     width: 7px;
-    height: 10px;
+    height: 7px;
     position: absolute;
 }
 
 .tak12 {
-    top: 0px;
+    top: 0;
     left: 48%;
 }
 .tak6 {
-    bottom: 0px;
+    bottom: 0;
     left: 48%;
 }
 .tak3 {
     top: 47.5%;
-    right: 2px;
+    right: 0;
     rotate: 90deg;
 }
 .tak9 {
     top: 47.5%;
-    left: 2px;
+    left: 0;
     rotate: 90deg;
 }
 .tak1 {
     top: 7%;
-    right: 71px;
+    right: 55px;
     rotate: 30deg;
 }
 .tak7 {
     bottom: 7%;
-    left: 70px;
+    left: 55px;
     rotate: 30deg;
 
 }
 .tak2 {
     top: 24%;
-    right: 20px;
+    right: 15px;
     rotate: 60deg;
 }
 .tak8 {
     bottom: 24%;
-    left: 21px;
+    left: 15px;
     rotate: 60deg;
 }
 .tak4 {
     bottom: 24%;
-    right: 20px;
+    right: 15px;
     rotate: -60deg;
 }
-.tak110 {
-    top: -2px;
-    left: 70px;
+.tak10 {
+    top: 24%;
+    left: 15px;
     rotate: -60deg;
 
 }
 .tak5 {
     bottom: 7%;
-    right: 70px;
+    right: 55px;
     rotate: -30deg;
 }
 .tak11 {
     top: 7%;
-    left: 70px;
+    left: 55px;
     rotate: -30deg;
 }
 
-.tak10 {
-    background-color: green;
-    width: 5px;
-    height: 5px;
-    top: 48.4%;
+.tak13 {
+    background-color: rgb(8, 255, 222);
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    top: 48%;
     left: 48.4%;
     z-index: 100;
 }
@@ -98,7 +105,6 @@
 
 .hand {
     background-color: black;
-    width:110px;
     height: 5px;
     position: absolute;
     top: 48.1%;
@@ -109,11 +115,17 @@
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 .sec {
-    width: 120px;
+    width: 100px;
 }
 .min {
-    width: 100px;
+    width: 85px;
 }
 .hour {
     width: 60px;
+}
+
+.num{
+    margin: 10px auto;
+    border: black solid 2px;
+    text-align: center;
 }
