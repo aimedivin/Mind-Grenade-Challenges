@@ -10,10 +10,9 @@ body {
 }
 
 .container {
-    background-color: aqua;
     position: relative;
     margin: 50px auto;
-    width: 50%;
+    width: 70%;
 }
 .circle {
     width: 250px;
@@ -125,7 +124,13 @@ body {
 }
 
 .num{
-    margin: 10px auto;
-    border: black solid 2px;
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    width: 40%;
+    border: black solid 3.5px;
+    display: flex;
+    justify-content: center
+}
+span {
+    font-size: 2.4rem;
 }
