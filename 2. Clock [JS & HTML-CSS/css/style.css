@@ -24,7 +24,7 @@ body {
 }
 
 .tik {
-    background-color: rgb(94, 93, 92);
+    background-color: rgb(44, 40, 3);
     width: 7px;
     height: 7px;
     position: absolute;
@@ -101,7 +101,6 @@ body {
     z-index: 100;
 }
 
-
 .hand {
     background-color: black;
     height: 5px;
@@ -123,14 +122,33 @@ body {
     width: 60px;
 }
 
-.num{
+.num {
     font-family: Arial, Helvetica, sans-serif;
     margin: 30px auto;
     width: 40%;
     border: black solid 3.5px;
     display: flex;
-    justify-content: center
-}
-span {
+    justify-content: center;
+    box-shadow: 3px 5px 10px black;
+    transition: 1s;
     font-size: 2.4rem;
+}
+
+.num:hover {
+    font-size: 2.2rem;
+    cursor: pointer;
+    margin: 30px auto;
+    width: 39%;
+    background-color: rgba(0, 0, 0, 0.151);
+    box-shadow: 5px 7px 7px black;
+}
+.exe {
+    -webkit-text-stroke: 1px black;
+   color: white;
+   text-shadow:
+       2px 2px 1px #000,
+     -1px -1px 1px #000,  
+      1px -1px 0 #000,
+      -1px 1px 1px #000,
+       1px 1px 0 #000;
 }
