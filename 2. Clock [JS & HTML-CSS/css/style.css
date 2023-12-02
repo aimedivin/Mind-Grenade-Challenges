@@ -21,7 +21,7 @@
 .tik {
     background-color: rgb(241, 16, 16);
     width: 7px;
-    height: 290px;
+    height: 10px;
     position: absolute;
 }
 
@@ -30,40 +30,60 @@
     left: 48%;
 }
 .tak6 {
-    top: 0px;
+    bottom: 0px;
     left: 48%;
 }
 .tak3 {
-    top: -1px;
-    left: 49%;
+    top: 47.5%;
+    right: 2px;
     rotate: 90deg;
 }
 .tak9 {
-    top: -2px;
-    left: 49%;
+    top: 47.5%;
+    left: 2px;
     rotate: 90deg;
 }
 .tak1 {
-    top: -2px;
-    left: 48.3%;
+    top: 7%;
+    right: 71px;
     rotate: 30deg;
 }
 .tak7 {
-    top: -2px;
-    left: 48.3%;
+    bottom: 7%;
+    left: 70px;
     rotate: 30deg;
 
 }
 .tak2 {
-    top: -2px;
-    left: 48.3%;
+    top: 24%;
+    right: 20px;
     rotate: 60deg;
 }
 .tak8 {
-    top: -2px;
-    left: 48.3%;
+    bottom: 24%;
+    left: 21px;
     rotate: 60deg;
+}
+.tak4 {
+    bottom: 24%;
+    right: 20px;
+    rotate: -60deg;
+}
+.tak110 {
+    top: -2px;
+    left: 70px;
+    rotate: -60deg;
 
+}
+.tak5 {
+    bottom: 7%;
+    right: 70px;
+    rotate: -30deg;
+}
+.tak11 {
+    top: 7%;
+    left: 70px;
+    rotate: -30deg;
 }
 
 .tak10 {
@@ -78,9 +98,22 @@
 
 .hand {
     background-color: black;
-    width:100px;
-    height: 7px;
+    width:110px;
+    height: 5px;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 48.1%;
+    left: 49.3%;
+    transform-origin: 0;
+    transition: all 0.5s;
+    transition-timing-function: cubic-bezier(0.14, 0.85, 0.53, 1.25);
+}
+.sec {
+    width: 120px;
+    rotate: 90deg;
+}
+.min {
+    width: 100px;
+}
+.hour {
+    width: 60px;
 }
