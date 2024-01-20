@@ -11,12 +11,14 @@ body {
 }
 
 .container {
-    background-color: rgba(105, 140, 185, 0.459);
-    width: 40rem;
+    background-color: rgba(33, 49, 70, 0.637);
+    position: relative;
+    width: 45rem;
     margin: 5rem auto;
     min-height: 30rem;
     padding: 20px;
     border-radius: 7px;
+    overflow: hidden;
 }
 
 .listItem {
@@ -25,13 +27,21 @@ body {
 
 .title, .inputForm {
 	text-transform: uppercase;
-    text-align: center;
-    margin: 1.2rem 2rem;
 }
 
 .title {
-    margin-top: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    letter-spacing: -2px;
+    padding: 10px;
+    position: sticky;
+    width: 21rem;
+    margin-left: -5rem;
+    margin-top: .3rem;
+    text-align: center;
+    padding-right: 3rem;
+    transform: rotate(-26deg);
+    background-color: black;
+    color: white;
 }
 
 .inputForm {
@@ -41,7 +51,7 @@ body {
     justify-content: space-between;
     width: 70%;
     height: 7vh;
-    margin: auto;
+    margin: 8rem auto 3rem auto;
     border-radius: 2px;
 }
 input, button {
@@ -58,7 +68,7 @@ input, button {
     cursor: pointer;
     padding: 5px 20px;
     border: none;
-    background-color: rgb(8, 71, 90);
+    background-color: #08475a;
     color: white;
 }
 
@@ -86,7 +96,7 @@ div ul .change:nth-child(even) {
 }
 
 li {
-    min-height: 3rem;
+    min-height: 4rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -101,7 +111,6 @@ li:nth-child(odd) {
 
 ul div {
     width: 60%;
-    padding: 10px;
 }
 
 span {
