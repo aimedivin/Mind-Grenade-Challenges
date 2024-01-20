@@ -42,6 +42,7 @@ body {
     width: 70%;
     height: 7vh;
     margin: auto;
+    border-radius: 2px;
 }
 input, button {
     font-family: inherit;
@@ -66,7 +67,8 @@ input, button {
     border: none;
     font-size: inherit;
     outline: none;
-    padding: 5px 15px;
+    padding: 10px 20px;
+    background-color: transparent;
 }
 
 
@@ -129,17 +131,17 @@ li input, li button {
 
 li button {
     font-size: 1rem;
-    padding: 3px 10px 1px 10px;
+    padding: 2px 10px 1px 10px;
     border: rgb(63, 112, 104) solid 1px;
-    border-radius: 7px;
+    border-radius: 3px;
     background-color: rgb(229, 239, 247);
     font-weight: 600;
 }
 
-button:hover {
+li button:hover {
     background-color: #005f5fe8;
     border: #005f5fe8 solid 1px;
-    transition: 0.7s;
+    transition: .3s;
     color: white;
 }
 
