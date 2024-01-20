@@ -12,12 +12,9 @@ body {
 
 .container {
     background-color: rgba(105, 140, 185, 0.459);
-    position: absolute;
-    top: 20%;
-    right: 20%;
-    min-width: 40%;
-    max-width: 70%;
-    margin: auto;
+    width: 40rem;
+    margin: 5rem auto;
+    min-height: 30rem;
     padding: 20px;
     border-radius: 7px;
 }
@@ -27,6 +24,7 @@ body {
 }
 
 .title, .inputForm {
+	text-transform: uppercase;
     text-align: center;
     margin: 1.2rem 2rem;
 }
@@ -36,36 +34,41 @@ body {
     font-size: 1.5rem;
 }
 
+.inputForm {
+    background-color: rgba(255, 255, 255, 0.842);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    height: 7vh;
+    margin: auto;
+}
 input, button {
     font-family: inherit;
 }
 
 .inputForm button {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	word-spacing: -4px;
     font-size: 18px;
     font-weight: bold;
-    height: 31px;
+    height: 100%;
     cursor: pointer;
-    margin-top: 1px;
-    padding: 5px 15px;
-    border: gray solid 1.3px;
-    background-color: rgb(234, 255, 255);
-    border-radius: 8px;
+    padding: 5px 20px;
+    border: none;
+    background-color: rgb(8, 71, 90);
+    color: white;
 }
 
 .inputForm input {
-    margin-bottom: 5px;
-    border-radius: 7px;
     width: 17rem;
-    height: 35px;
-    border: gray solid 1.3px;
+    border: none;
     font-size: inherit;
+    outline: none;
     padding: 5px 15px;
 }
 
-.inputForm input[type=text]:focus {
-    outline: none;
-    border: #04101ba8 solid 1px;
-}
 
 div ul .change:nth-child(odd) {
     background-color: rgba(0, 0, 0, 0.856);
