@@ -49,9 +49,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
-    height: 7vh;
-    margin: 8rem auto 3rem auto;
+    width: 60%;
+    height: 5vh;
+    margin: 4rem auto 3rem auto;
     border-radius: 2px;
 }
 input, button {
