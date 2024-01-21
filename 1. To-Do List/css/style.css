@@ -82,16 +82,23 @@ input, button {
 
 
 div ul .change:nth-child(odd) {
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: rgba(20, 7, 1, 0.795);
 }
 
 div ul .change:nth-child(even) {
-    background-color: rgba(2, 0, 0, 0.814);
+    background-color: rgba(15, 5, 5, 0.842);
 }
 
 .textChange {
     color: white;
     text-decoration: line-through;
+}
+.listItem ul .task-list-head {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.979);
 }
 
 li {
