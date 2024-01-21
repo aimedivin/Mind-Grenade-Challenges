@@ -1,4 +1,4 @@
-const date = new Date();
+const date = new Date()
 const button = document.getElementById("additem");
 const ul = document.getElementById("tasklist");
 const input = document.getElementById("text");
@@ -30,7 +30,7 @@ const input = document.getElementById("text");
             </span>
             <span class="date">${date.getFullYear()}/${date.getMonth()+1}/${date.getDate()}</span>
             </div>
-            <input type="checkbox" id ="check${ul.children.length}" on  click ="check('check${ul.children.length}', 'id${ul.children.length}', 'class${ul.children.length}')">
+            <input type="checkbox" id ="check${ul.children.length}" onclick ="check('check${ul.children.length}', 'id${ul.children.length}', 'class${ul.children.length}')">
             <button onclick ="remove('id${ul.children.length}')">Remove</button>
             </li>`;
         });
